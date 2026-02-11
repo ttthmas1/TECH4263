@@ -1,4 +1,10 @@
+using EquipmentAPI.Models;
+using System.Linq;
+
+
 var builder = WebApplication.CreateBuilder(args);
+var equipments = new List<Equipment>();
+
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -16,18 +22,36 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapPost("/createequipment", (string name, string category, string status, string location) => { ... })
-   .WithName("CreateEquipment")
-   .WithOpenApi();
+app.MapPost("/createequipment", (string name, string category, string status, string location) =>
+{
+    var newEq = new Equipment(name, category, status, location);
+    equipments.Add(newEq);
+
+    return Results.Created($"/getequipment/{newEq.Id}", newEq);
+})
+.WithName("CreateEquipment")
+.WithOpenApi();
 
 
-app.MapGet("/getequipments", () => { ... })
-   .WithName("GetEquipments")
-   .WithOpenApi();
+app.MapGet("/getequipments", () =>
+{
+    return Results.Ok(equipments);
+})
+.WithName("GetEquipments")
+.WithOpenApi();
 
-app.MapGet("/getequipment/{id}", (int id) => { ... })
-   .WithName("GetEquipmentById")
-   .WithOpenApi();
+
+app.MapGet("/getequipment/{id}", (int id) =>
+{
+    var found = equipments.FirstOrDefault(e => e.Id == id);
+
+    if (found == null)
+        return Results.NotFound();
+
+    return Results.Ok(found);
+})
+.WithName("GetEquipmentById")
+.WithOpenApi();
 
 
 app.Run();
