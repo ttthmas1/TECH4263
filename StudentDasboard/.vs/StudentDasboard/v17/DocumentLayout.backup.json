@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41227D12-1E62-42F3-AFE3-BA5BF677F5E5}|StudentDashboard.csproj|c:\\users\\tonit\\source\\repos\\tech4263\\studentdasboard\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41227D12-1E62-42F3-AFE3-BA5BF677F5E5}|StudentDashboard.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41227D12-1E62-42F3-AFE3-BA5BF677F5E5}|StudentDashboard.csproj|c:\\users\\tonit\\source\\repos\\tech4263\\studentdasboard\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41227D12-1E62-42F3-AFE3-BA5BF677F5E5}|StudentDashboard.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41227D12-1E62-42F3-AFE3-BA5BF677F5E5}|StudentDashboard.csproj|c:\\users\\tonit\\source\\repos\\tech4263\\studentdasboard\\models\\createstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41227D12-1E62-42F3-AFE3-BA5BF677F5E5}|StudentDashboard.csproj|solutionrelative:models\\createstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41227D12-1E62-42F3-AFE3-BA5BF677F5E5}|StudentDashboard.csproj|c:\\users\\tonit\\source\\repos\\tech4263\\studentdasboard\\models\\studentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41227D12-1E62-42F3-AFE3-BA5BF677F5E5}|StudentDashboard.csproj|solutionrelative:models\\studentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41227D12-1E62-42F3-AFE3-BA5BF677F5E5}|StudentDashboard.csproj|c:\\users\\tonit\\source\\repos\\tech4263\\studentdasboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41227D12-1E62-42F3-AFE3-BA5BF677F5E5}|StudentDashboard.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41227D12-1E62-42F3-AFE3-BA5BF677F5E5}|StudentDasboard.csproj|C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41227D12-1E62-42F3-AFE3-BA5BF677F5E5}|StudentDasboard.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateStudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\Models\\CreateStudentDto.cs",
+              "RelativeDocumentMoniker": "Models\\CreateStudentDto.cs",
+              "ToolTip": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\Models\\CreateStudentDto.cs",
+              "RelativeToolTip": "Models\\CreateStudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T20:57:38.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\Models\\StudentResponseDto.cs",
+              "RelativeDocumentMoniker": "Models\\StudentResponseDto.cs",
+              "ToolTip": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\Models\\StudentResponseDto.cs",
+              "RelativeToolTip": "Models\\StudentResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T20:55:12.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T20:41:05.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\MainForm.Designer.cs",
+              "RelativeToolTip": "MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T20:39:36.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T20:33:06.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\tonit\\source\\repos\\TECH4263\\StudentDasboard\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T20:25:01.926Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
